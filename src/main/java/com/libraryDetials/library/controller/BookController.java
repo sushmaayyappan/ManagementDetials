@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/book")
+@RequestMapping("/bookid")
 public class BookController {
 
     private BookService bookService;
